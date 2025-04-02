@@ -1,0 +1,12 @@
+Name,Unit,Expression,Value,Comments,Favorite
+OD_,mm,PD_ - ( 2 * U_ ),12.224,Outer diameter,false
+PD_,mm,( ( P_ * N_ ) / PI ),12.732,Pitch Diameter,false
+U_,mm,0.254 mm,0.254,"Distance between the tensile cord and the bottom of the timming belt tooth, also called PLD",false
+H_,mm,-0.75 mm,-0.75,distance between pulley tooth and belt tooth,false
+P_,mm,2 mm,2.00,Pitch of the system ,false
+BTD_,mm,0.555 mm * 2,1.11,Belt tooth diameter,false
+N_,,20,20,Number of teeth in the circumference pulley,false
+PTR_,mm,( 0.15 * 2 ) * 1 mm,0.30,Pulley tooth roundness,false
+EX_,mm,7 mm,7.00,Tooth Extrude length,false
+SHFT_,mm,5 mm,5.00,The shaft diameter,false
+TH_,deg,90 deg - ( ( 360 / N_ ) * 1 deg ),72.0,Radial distance between teeth,false

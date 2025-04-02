@@ -1,0 +1,29 @@
+Formulas and parameters for GT2 and HTD belt/pulley systems
+
+OD_   ->  The outer diameter of the pulley
+          General Formula: Pitch diameter - (2 * U_). Fusion formula: PD_ - ( 2 * U_ )
+
+PD_   ->  The pitch diameter 
+          General Formula: (Pitch * Number of teeth) / Pi. Fusion formula: ( ( P_ * N_ ) / PI )
+
+U_    ->  Distance between the tensile cord and the bottom of the timming belt tooth it can be found as "PLD" or "U"
+          Value: 0.254mm varies depending on the profile, check the belt profile
+
+H_    ->  Distance between the top of the pulley tooth and the bottom of the belt tooth.
+          Value: -0.75mm varies depending on the profile, check the belt profile
+
+P_    ->  Pitch. The linear relation for a given change in the rotation of the pulley.
+          Value: 2mm varies depending on the system pitch normally the last number gaves you the pitch 
+
+BTD_  ->  Belt tooth diameter
+          Value: 0.555 mm * 2 varies depending on the profile, check the belt profile
+
+N_    ->  Number of teeth in a pulley check the chart to se possible combinations
+          Value: it can be any number this is the only variable that may be editable  
+
+PTR_  ->  Pulley tooth roundness 
+          Value: 0.15 mm * 2 varies depending on the profile, check the belt profile
+
+TH_   ->  Radial distance between two theeth
+          Fusion formula: 90 deg - ( ( 360 / N_ ) * 1 deg )  
+          
